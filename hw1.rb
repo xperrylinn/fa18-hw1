@@ -50,4 +50,5 @@ def scrabble(word)
   }
   # Q5 CODE HERE
   word.chars.map! {|char| values[char.to_sym]}.inject(0) {|sum, i|  sum + i }
+  # Done.
 end
